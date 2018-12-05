@@ -61,7 +61,8 @@ def main():
     parser.add_argument("--mvad_names_path", type=str, help="MVAD-Names dataset file path", default='mvad-names.pkl')
     parser.add_argument("--movie", type=str, help="Name of the movie to process.", default=None)
     parser.add_argument("--clip", type=str, help="Clip IDs (split by space).", default=None)
-    parser.add_argument("--save_results", action='store_true',help="Save the output images in `./output` in place of visualizing them.")
+    parser.add_argument("--save_results", action='store_true',
+                        help="Save the output images in `./output` in place of visualizing them.")
     args = parser.parse_args()
 
     movie_folder = args.mvad_path
@@ -98,7 +99,7 @@ def main():
         print('\nMovie: %s' % movie)
 
         for clip in os.listdir(os.path.join(movie_folder, movie)):
-            vid = clip[clip.rfind('_')+1:-4]
+            vid = clip[clip.rfind('_') + 1:-4]
             if '.avi' in clip and vid in ds[movie]['videos'].keys():
                 if clips is not None:
                     if clip.split('_')[-1][3:-4] not in clips:
@@ -112,13 +113,14 @@ def main():
 
                 for i, frame in enumerate(frames):
                     img = frame.copy()
-                    for char_index,(c, char) in enumerate(ds[movie]['videos'][vid].items()):
+                    for char_index, (c, char) in enumerate(ds[movie]['videos'][vid].items()):
                         for k, track in enumerate(char):
                             for bb in [x for x in track if x[0] == i]:
                                 color = color_map[char_index % len(color_map)]
                                 color = (int(color[0]), int(color[1]), int(color[2]))
                                 img = cv2.rectangle(img, (bb[1], bb[2]), (bb[3], bb[4]), color)
-                                cv2.putText(img, c, (bb[1], bb[2]), cv2.FONT_HERSHEY_PLAIN, 1, color, 1, cv2.QT_FONT_NORMAL, 0)
+                                cv2.putText(img, c, (bb[1], bb[2]), cv2.FONT_HERSHEY_PLAIN, 1, color, 1,
+                                            cv2.QT_FONT_NORMAL, 0)
                     if not args.save_results:
                         cv2.imshow('MVAD-Names', img)
                         cv2.waitKey(42)
