@@ -87,8 +87,8 @@ of video clips with two or more mentions.
 |                   | Overall   | Avg. per movie    |
 | ----              | :-----:   | :-----:           |
 | Train videos      | 19,023    | 207               |
-| Validation videos | 2,836     | 31                |
-| Test videos       | 2,976     | 32                |
+| Validation videos | 2,976     | 32                |
+| Test videos       | 2,836     | 31                |
 
 Official splits are available, along with the M-VAD Names dataset, in the [Release section](https://github.com/aimagelab/mvad-names-dataset/releases/tag/1.0). 
 
