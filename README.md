@@ -2,13 +2,13 @@
 
 This repository contains the latest version of the M-VAD Names Dataset, introduced in the following papers:
 
-Pini Stefano, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara  
+Stefano Pini, Marcella Cornia, Lorenzo Baraldi, Rita Cucchiara  
 _[Towards Video Captioning with Naming: a Novel Dataset and a Multi-Modal Approach](http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2017_ICIAP_Naming.pdf)_  
 International Conference on Image Analysis and Processing, 2017
 
-Pini Stefano, Marcella Cornia, Federico Bolelli, Lorenzo Baraldi, Rita Cucchiara  
-_M-VAD Names: a Dataset for Video Captioning with Naming_  
-Multimedia Tools and Applications, 2019
+Stefano Pini, Marcella Cornia, Federico Bolelli, Lorenzo Baraldi, Rita Cucchiara  
+_[M-VAD Names: a Dataset for Video Captioning with Naming](https://link.springer.com/article/10.1007/s11042-018-7040-z)_  
+Multimedia Tools and Applications, 2018
 
 
 ## Dataset Overview
