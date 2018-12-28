@@ -34,11 +34,11 @@ _By downloading the dataset, you declare that you will use it for research and e
 Please cite with the following articles:
 
 ```
-@article{pini2019mvad,
+@article{pini2018mvad,
   title={{M-VAD Names: a Dataset for Video Captioning with Naming}},
   author={Pini, Stefano and Cornia, Marcella and Bolelli, Federico and Baraldi, Lorenzo and Cucchiara, Rita},
   journal={Multimedia Tools and Applications},
-  year={2019}
+  year={2018}
 }
 ```
 
