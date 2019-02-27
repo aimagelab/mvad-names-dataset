@@ -20,8 +20,8 @@ We collect and release a new set of annotations for the Montreal Video Annotatio
 
 <img src="./images/sample2.jpg" width="100%" />
 
-The dataset contains the annotations of the characters' visual appearances, in the form of tracks of face bounding
-boxes, and the associations with the characters' textual mentions, when available.
+The dataset contains the annotations of characters' visual appearances, in the form of tracks of face bounding
+boxes, and the associations with characters' textual mentions, when available.
 We detect and annotate the visual appearances of characters in each video clip of each movie through a 
 semi-automatic approach.
 The released dataset contains more than 24k annotated video clips, including 63k visual tracks and 34k textual 
@@ -76,7 +76,7 @@ where `tracks` is a list of bounding boxes containing the face of the character 
 ### Dataset splits
 
 Original M-VAD training, validation, and test sets are obtained by splitting the 92 movies in three disjoint parts.
-However, when considering the characters' identities, video clips of the same movie have to be in every split, so that 
+However, when considering characters' identities, video clips of the same movie have to be in every split, so that 
 the algorithms can learn the visual appearance of the characters on the training set and apply it on the 
 validation and test set.
 
