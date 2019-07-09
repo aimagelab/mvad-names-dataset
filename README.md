@@ -8,7 +8,7 @@ International Conference on Image Analysis and Processing, 2017
 
 Stefano Pini, Marcella Cornia, Federico Bolelli, Lorenzo Baraldi, Rita Cucchiara  
 _[M-VAD Names: a Dataset for Video Captioning with Naming](https://link.springer.com/article/10.1007/s11042-018-7040-z)_  
-Multimedia Tools and Applications, 2018
+Multimedia Tools and Applications, 2019
 
 
 ## Dataset Overview
@@ -34,11 +34,14 @@ _By downloading the dataset, you declare that you will use it for research and e
 Please cite with the following articles:
 
 ```
-@article{pini2018mvad,
+@article{pini2019mvad,
   title={{M-VAD Names: a Dataset for Video Captioning with Naming}},
   author={Pini, Stefano and Cornia, Marcella and Bolelli, Federico and Baraldi, Lorenzo and Cucchiara, Rita},
   journal={Multimedia Tools and Applications},
-  year={2018}
+  volume={78},
+  number={10},
+  pages={14007--14027},
+  year={2019}
 }
 ```
 
